@@ -26,7 +26,7 @@ app.use(bodyParser.urlencoded({ extended: false })); // Menggunakan middleware b
 app.use(express.static('public'))
 
 const corsOptions = {
-  origin: 'https://dedeportofolio-roan.vercel.app/', // Set the origin to your frontend's URL
+  origin: 'https://dedeportofolio-roan.vercel.app', // Set the origin to your frontend's URL
   optionsSuccessStatus: 200, // Some legacy browsers (IE11) choke on 204
   methods: 'GET,PUT,POST,DELETE', // Specify the HTTP methods you want to allow
   credentials: true, // Include cookies when making requests (if needed)
