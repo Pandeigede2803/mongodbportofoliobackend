@@ -63,4 +63,3 @@ app.delete('/api/projects/:id', projectController.deleteProject); // Menangani p
 app.listen(port, () => {
   console.log(`Server berjalan di http://localhost:${port}`); // Memulai server dan mencetak pesan ke konsol
 });
-;
